@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bart Lanches</title>
+    <link rel="stylesheet" href="style.css"> </head>
+<body>
+
+    <header>
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#quem-somos">Quem Somos</a></li>
+                <li><a href="#produtos">Produtos</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="home">
+        <h1>Bem-vindo à Hamburgueria do Bart Lanches!</h1>
+        <p>Experimente o melhor hambúrguer da cidade!</p>
+        <img src="hamburguer.jpg" alt="Imagem de um hambúrguer delicioso">
+        <button>Ver Menu</button>
+    </section>
+
+    <section id="quem-somos">
+        <h2>Quem Somos</h2>
+        <div class="container">
+            <div class="grid">
+                <div class="card">
+                    <img src="equipe.jpg" alt="Foto da equipe">
+                    <h3>Nossa Equipe</h3>
+                    <p>Conheça a equipe que faz os melhores hambúrgueres da cidade.</p>
+                </div>
+                <div class="card">
+                    <img src="historia.jpg" alt="Imagem da história da hamburgueria">
+                    <h3>Nossa História</h3>
+                    <p>Saiba mais sobre a nossa paixão por hambúrgueres e como tudo começou.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="produtos">
+        <h2>Nossos Produtos</h2>
+        <div class="container">
+            <div class="grid">
+                <div class="card">
+                    <img src="hamburguer1.jpg" alt="Imagem do hambúrguer 1">
+                    <h3>Hambúrguer Clássico</h3>
+                    <p>Carne, queijo, alface, tomate e cebola.</p>
+                    <p>R$ </p>
+                    <button>Comprar</button>
+                    <button>Saiba Mais</button>
+                </div>
+                <div class="card">
+                    <img src="hamburguer2.jpg" alt="Imagem do hambúrguer 2">
+                    <h3>Hambúrguer Especial</h3>
+                    <p>Carne, queijo, bacon, ovo, alface, tomate e cebola.</p>
+                    <p>R$ </p>
+                    <button>Comprar</button>
+                    <button>Saiba Mais</button>
+                </div>
+                </div>
+        </div>
+    </section>
+
+    <footer>
+       
+    </footer>
+
+</body>
+</html>
